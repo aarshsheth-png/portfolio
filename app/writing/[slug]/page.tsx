@@ -14,7 +14,7 @@ export default function PostPage() {
             Post Not Found
           </h1>
           <p className="text-gray-600 dark:text-gray-400 mb-2">
-            The post "{slug}" could not be found.
+            The post &quot;{slug}&quot; could not be found.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-500">
             Blog posts feature coming soon. This can be configured with Hygraph.

@@ -48,9 +48,9 @@ function JourneyContent() {
         if (slug && videoModules.length > 0) {
           const project = data.find((p) => p.slug === slug)
           if (project && project.videoUrl) {
-            const module = videoModules.find((m) => m.id === project.id)
-            if (module) {
-              setSelectedModule(module)
+            const selectedVideoModule = videoModules.find((m) => m.id === project.id)
+            if (selectedVideoModule) {
+              setSelectedModule(selectedVideoModule)
             }
           }
         } else if (videoModules.length > 0) {
